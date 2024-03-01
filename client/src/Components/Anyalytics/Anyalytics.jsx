@@ -13,6 +13,7 @@ import {
 } from "../../Redux/User/UserSlice";
 
 const Anyalytics = () => {
+  const name = "Ankita";
   const userAllBacklog = useSelector(allBacklog);
   const userAllTodo = useSelector(allTodo);
   const userAllInProgress = useSelector(allInProgress);
