@@ -1,0 +1,133 @@
+.settings_main_container {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.3rem;
+  row-gap: 2rem;
+}
+
+.settings_main_container .title_text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: black;
+}
+.settings_main_container .right_container {
+  width: max-content;
+}
+.settings_main_container .right_container .input_placeholder {
+  top: 13%;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  column-gap: 0.3rem;
+  position: absolute;
+  left: 3%;
+}
+
+.right_container .container_up {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 3rem;
+}
+.settings_main_container .settings_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.2rem;
+}
+.right_container .label {
+  width: max-content;
+  padding-bottom: 0.3rem;
+  font-size: 1rem;
+  display: block;
+}
+.settings_main_container .form {
+  width: 20rem;
+}
+.settings_main_container .input {
+  height: 2.2rem;
+  width: 20rem;
+  border: 2px solid gray;
+  border-radius: 0.4rem;
+}
+.settings_main_container .mail_icon {
+  position: absolute;
+  font-size: 1.4rem;
+  width: max-content;
+
+  left: 0.5rem;
+  top: 0.4rem;
+}
+.settings_main_container .user_icon {
+  position: absolute;
+  font-size: 1.4rem;
+  width: max-content;
+
+  left: 0.5rem;
+  top: 0.5rem;
+}
+.settings_main_container .newPassword_icon {
+  position: absolute;
+  font-size: 1.4rem;
+  width: max-content;
+  left: -0.3rem;
+  top: -1px;
+}
+.settings_main_container .password_icon {
+  position: absolute;
+  font-size: 1.4rem;
+  width: max-content;
+  left: -0.3rem;
+  top: -1px;
+}
+.settings_main_container .input_box {
+  position: relative;
+}
+.settings_main_container .input {
+  font-size: 1.1rem;
+  padding-left: 2rem;
+  width: 17.7rem;
+}
+
+.container_down {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -0.5rem;
+}
+
+.container_up .eye {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  font-size: 1.4rem;
+  color: gray;
+  cursor: pointer;
+}
+.container_down .submit_btn {
+  width: 20rem;
+  height: 2.5rem;
+  background-color: #17a2b8;
+  border-radius: 1.2rem;
+  border: none;
+  color: white;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.settings_main_container .input_error_msg {
+  font-size: 0.8rem;
+  display: block;
+  height: 1rem;
+  color: red;
+}
